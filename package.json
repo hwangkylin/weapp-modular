@@ -1,0 +1,18 @@
+{
+  "name": "weapp-modular",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "weapp": "bin/weapp.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kylin",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.11.0"
+  }
+}
