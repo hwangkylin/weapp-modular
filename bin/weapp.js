@@ -15,8 +15,9 @@ program
     weappInstall(name, options);
   })
 
-if (!process.argv.slice(2).length) {
-  program.help();
-}
+program.on('--help', () => {
+  console.log('    -F, --folder <fold>', 'target folder');
+  console.log('    -R, --registry <reg>', 'target registry');
+})
 
 program.parse(process.argv);
