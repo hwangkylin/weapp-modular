@@ -5,7 +5,6 @@
 ```
 $ npm install weapp-modular -g
 ```
->目前暂时还没有将包托管到npm
 
 ## 使用说明
 
@@ -22,6 +21,5 @@ $ weapp install jquery -F lib -R npm
 ```
 
 ## TODO
-1.将包发到npm上托管
 
-2.制定小程序npm包规范
+1.制定小程序npm包规范
